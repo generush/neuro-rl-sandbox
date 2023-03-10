@@ -1,0 +1,9 @@
+[submodule "IsaacGymEnvs"]
+	path = IsaacGymEnvs
+	url = git@github.com:erush91/IsaacGymEnvs.git
+[submodule "rl_games"]
+	path = rl_games
+	url = git@github.com:erush91/rl_games.git
+[submodule "neural_dynamics"]
+	path = neural_dynamics
+	url = git@github.com:erush91/neural_dynamics.git
