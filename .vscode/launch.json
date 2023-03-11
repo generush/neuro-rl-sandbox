@@ -11,8 +11,8 @@
             "request": "launch",
             "program": "${file}",
             "cwd": "/home/gene/code/rl_neural_dynamics/IsaacGymEnvs/isaacgymenvs",
-            "args": ["task=AnymalTerrain", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // AnymalTerrain w/ 2 LSTM
-            // "args": ["task=ShadowHandOpenAI_LSTM", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // ShadowHand w/ 2 LSTM
+            // "args": ["task=AnymalTerrain", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // AnymalTerrain w/ 2 LSTM
+            "args": ["task=ShadowHandOpenAI_LSTM", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth", "force_render=True", "headless=False", "test=True", "num_envs=1"], // ShadowHand w/ 2 LSTM
             // "args": ["task=ShadowHandOpenAI_LSTM", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_9856.898.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // ShadowHand w/ 1 LSTM
             "console": "integratedTerminal",
             // "justMyCode": false,
