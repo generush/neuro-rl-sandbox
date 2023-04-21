@@ -1,16 +1,40 @@
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[python]": {
-    "editor.defaultFormatter": null
-  },
-  "editor.formatOnSaveMode": "file",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
-  "python.linting.pylintEnabled": true,
-  "python.linting.mypyEnabled": true,
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black",
-  "vim.smartRelativeLine": true
+{	
+  "editor.defaultFormatter": "esbenp.prettier-vscode",	
+  "[python]": {	
+    "editor.formatOnSaveMode": "file",	
+    "editor.formatOnSave": true,	
+    "editor.codeActionsOnSave": {	
+      "source.organizeImports": false	
+    }
+  },	
+  "python.linting.pylintEnabled": true,	
+  "python.linting.mypyEnabled": true,	
+  "python.linting.enabled": true,	
+  "python.formatting.provider": "black",	
+  "vim.smartRelativeLine": true,	
+  "python.analysis.typeCheckingMode": "strict",	
+  "window.zoomLevel": -1,	
+  "python.defaultInterpreterPath": "/home/gene/anaconda3/envs/isaacgym/bin/python",	
+  "python.analysis.extraPaths": [
+      "isaacgym", "/home/gene/code/NEURO/isaacgym/python",	
+      "IsaacGymEnvs", "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs",	
+      "rl_games", "/home/gene/code/NEURO/neuro-rl-sandbox/rl_games",	
+  ],
 }
+
+// {	
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",	
+//   "[python]": {	
+//     "editor.defaultFormatter": null	
+//   },	
+//   "editor.formatOnSaveMode": "file",	
+//   "editor.formatOnSave": true,	
+//   "editor.codeActionsOnSave": {	
+//     "source.organizeImports": true	
+//   },	
+//   "python.linting.pylintEnabled": true,	
+//   "python.linting.mypyEnabled": true,	
+//   "python.linting.enabled": true,	
+//   "python.formatting.provider": "black",	
+//   "vim.smartRelativeLine": true	
+// }

@@ -4,21 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "cwd": "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs/isaacgymenvs",
-            // "args": ["task=HumanoidAMP", "force_render=True", "headless=False"],
-            "args": ["task=AnymalTerrain", "train=AnymalTerrainPPO_LSTM_NeuroRL", "capture_video=True", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
-            // "args": ["task=AnymalTerrain", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // AnymalTerrain w/ 2 LSTM
-            // "args": ["task=ShadowHandOpenAI_LSTM", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // ShadowHand w/ 2 LSTM
-            // "args": ["task=ShadowHandOpenAI_LSTM", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_9856.898.pth", "force_render=True", "headless=False", "test=True", "num_envs=64"], // ShadowHand w/ 1 LSTM
             "console": "integratedTerminal",
             // "justMyCode": false,
-            // "purpose": ["debug-test"]
+            // "purpose": ["debug-test"],
+            "cwd": "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs/isaacgymenvs",
+
+            ////////////////////////
+            // AnymalTerrain TEST //
+            ////////////////////////
+            "args": ["task=AnymalTerrain", "train=AnymalTerrainPPO_LSTM_NeuroRL", "capture_video=True", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
+            
+            /////////////////////
+            // ShadowHand TEST //
+            /////////////////////
+            // "args": ["task=ShadowHandOpenAI_LSTM", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=True", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth"], // ShadowHand w/ 2 LSTM
+        
+            
         }
     ]
 }
