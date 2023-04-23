@@ -17,12 +17,12 @@
             ////////////////////////
             // AnymalTerrain TEST //
             ////////////////////////
-            "args": ["task=AnymalTerrain", "train=AnymalTerrainPPO_LSTM_NeuroRL", "capture_video=True", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
+            "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=125", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
             
             /////////////////////
             // ShadowHand TEST //
             /////////////////////
-            // "args": ["task=ShadowHandOpenAI_LSTM", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=True", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth"], // ShadowHand w/ 2 LSTM
+            // "args": ["task=ShadowHandOpenAI_LSTM", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth"], // ShadowHand w/ 2 LSTM
         
             
         }

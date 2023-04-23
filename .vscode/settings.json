@@ -1,25 +1,27 @@
 {	
   "editor.defaultFormatter": "esbenp.prettier-vscode",	
-  "[python]": {	
-    "editor.formatOnSaveMode": "file",	
-    "editor.formatOnSave": true,	
-    "editor.codeActionsOnSave": {	
-      "source.organizeImports": false	
+  "[python]": {
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
     }
-  },	
-  "python.linting.pylintEnabled": true,	
-  "python.linting.mypyEnabled": true,	
-  "python.linting.enabled": true,	
-  "python.formatting.provider": "black",	
-  "vim.smartRelativeLine": true,	
-  "python.analysis.typeCheckingMode": "strict",	
-  "window.zoomLevel": -1,	
-  "python.defaultInterpreterPath": "/home/gene/anaconda3/envs/isaacgym/bin/python",	
-  "python.analysis.extraPaths": [
-      "isaacgym", "/home/gene/code/NEURO/isaacgym/python",	
-      "IsaacGymEnvs", "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs",	
-      "rl_games", "/home/gene/code/NEURO/neuro-rl-sandbox/rl_games",	
-  ],
+  },
+  // "python.linting.pylintEnabled": true,
+  // "python.linting.mypyEnabled": true,
+  // "python.linting.enabled": true,
+  // "python.formatting.provider": "black",
+  // "vim.smartRelativeLine": true,
+  // "python.analysis.typeCheckingMode": "off",
+  // "python.analysis.logLevel": "Trace",
+  // "python.analysis.useLibraryCodeForTypes": true,
+  // "window.zoomLevel": -1,
+  // "python.defaultInterpreterPath": "/home/gene/anaconda3/envs/isaacgym/bin/python",
+  // "python.analysis.extraPaths": [
+  //     "isaacgym", "/home/gene/code/NEURO/isaacgym/python",
+  //     "IsaacGymEnvs", "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs",
+  //     "rl_games", "/home/gene/code/NEURO/neuro-rl-sandbox/rl_games",
+  // ],
 }
 
 // {	
