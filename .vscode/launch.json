@@ -15,9 +15,16 @@
             "cwd": "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs/isaacgymenvs",
 
             ////////////////////////
+            // AnymalTerrain TRAIN //
+            ////////////////////////
+            "args": ["wandb_activate=True", "wandb_group=isaacgymenvs", "wandb_entity=erush91", "task=AnymalTerrain_NeuroRL_train", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=False", "headless=True"], // AnymalTerrain w/ 2 LSTM
+
+            ////////////////////////
             // AnymalTerrain TEST //
             ////////////////////////
-            "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
+            // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain_24-16-26-37/nn/last_AnymalTerrain_ep_200_rew_8.2432165.pth"], // AnymalTerrain w/ 2 LSTM (no act, early training)
+            // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=3", "checkpoint=runs/AnymalTerrain_24-13-17-24/nn/last_AnymalTerrain_ep_3000_rew_20.811628.pth"], // AnymalTerrain w/ 2 LSTM (latest training)
+            // "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=3", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM
             // "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=125", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_150_rew_5.9703617.pth"], // AnymalTerrain w/ 2 LSTM
 
             
