@@ -14,26 +14,30 @@
             // "purpose": ["debug-test"],
             "cwd": "/home/gene/code/NEURO/neuro-rl-sandbox/IsaacGymEnvs/isaacgymenvs",
 
-            ////////////////////////
+            /////////////////////////
             // AnymalTerrain TRAIN //
-            ////////////////////////
+            /////////////////////////
             // "args": ["wandb_activate=True", "wandb_group=isaacgymenvs", "wandb_entity=erush91", "task=AnymalTerrain_NeuroRL_train", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=False", "headless=True"], // AnymalTerrain w/ 2 LSTM
 
             ////////////////////////
             // AnymalTerrain TEST //
             ////////////////////////
-            "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain_25-22-22-32/nn/last_AnymalTerrain_ep_3000_rew_20.281357.pth"], // AnymalTerrain w/ 2 LSTM (no act in obs) (to compare two random init networks)
+            // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain_25-22-22-32/nn/last_AnymalTerrain_ep_3000_rew_20.281357.pth"], // AnymalTerrain w/ 2 LSTM (no act in obs) (to compare two random init networks)
             // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain_25-15-11-29/nn/last_AnymalTerrain_ep_3000_rew_20.100796.pth"], // AnymalTerrain w/ 2 GRU (no act in obs)
             // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=80", "checkpoint=runs/AnymalTerrain_24-17-09-55/nn/last_AnymalTerrain_ep_2950_rew_20.316027.pth"], // AnymalTerrain w/ 2 LSTM (no act in obs)
             // "args": ["task=AnymalTerrain_NeuroRL_exp", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=3", "checkpoint=runs/AnymalTerrain_24-13-17-24/nn/last_AnymalTerrain_ep_3000_rew_20.811628.pth"], // AnymalTerrain w/ 2 LSTM (latest training)
             // "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=3", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_3000_rew_20.92303.pth"], // AnymalTerrain w/ 2 LSTM (old training)
             // "args": ["task=AnymalTerrain_NeuroRL", "train=AnymalTerrain_PPO_LSTM_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=125", "checkpoint=runs/AnymalTerrain/nn/last_AnymalTerrain_ep_150_rew_5.9703617.pth"], // AnymalTerrain w/ 2 LSTM (old training, early policy)
 
+            //////////////////////
+            // ShadowHand TRAIN //
+            //////////////////////
+            // "args": ["wandb_activate=True", "wandb_group=isaacgymenvs", "wandb_entity=erush91", "task=ShadowHandOpenAI_LSTM", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=False", "headless=True"], // AnymalTerrain w/ 2 LSTM
             
             /////////////////////
             // ShadowHand TEST //
             /////////////////////
-            // "args": ["task=ShadowHandOpenAI_LSTM", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=64", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth"], // ShadowHand w/ 2 LSTM
+            "args": ["task=ShadowHandOpenAI_LSTM_NeuroRL_exp", "train=ShadowHandOpenAI_LSTMPPO_NeuroRL", "capture_video=False", "capture_video_len=1000", "force_render=True", "headless=False", "test=True", "num_envs=21", "checkpoint=runs/ShadowHandAsymmLSTM/nn/last_ShadowHandAsymmLSTM_ep_10000_rew_5273.897.pth"], // ShadowHand w/ 2 LSTM
         
             
         }
