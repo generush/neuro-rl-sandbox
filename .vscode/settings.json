@@ -7,6 +7,7 @@
       "source.organizeImports": false
     }
   },
+  "terminal.integrated.scrollback": 20000,
   // "python.linting.pylintEnabled": true,
   // "python.linting.mypyEnabled": true,
   // "python.linting.enabled": true,
